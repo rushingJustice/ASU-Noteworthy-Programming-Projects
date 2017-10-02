@@ -1,0 +1,11 @@
+﻿Build started 8/24/2015 6:51:17 PM.
+     1>Project "C:\Users\Mike\Desktop\Grad Classes\CEE 532\Programs from E-book\Example2_5_2\Example2_5_2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\mike\desktop\grad classes\cee 532\programs from e-book\example2_5_2\main.cpp(19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>Done Building Project "C:\Users\Mike\Desktop\Grad Classes\CEE 532\Programs from E-book\Example2_5_2\Example2_5_2.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.38

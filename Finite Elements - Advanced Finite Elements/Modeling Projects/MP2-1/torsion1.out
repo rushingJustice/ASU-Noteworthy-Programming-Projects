@@ -1,0 +1,99 @@
+
+		--------------------------------------------
+		        Space Truss Analysis Program        
+		Introduction to Structural Analysis & Design
+		               November 2012                
+		          (c) 2000-12, S. D. Rajan          
+		--------------------------------------------
+
+  Analysis date and time: Thu Apr 07 19:49:17 2016
+
+
+------------
+PROBLEM SIZE
+------------
+   Number of nodes : 12
+Number of elements : 10
+    Applied Torque : -500
+     Shear Modulus : 1.15e+007
+
+-----------------
+NODAL COORDINATES
+-----------------
+Node    X-Coordinate    Y-Coordinate
+----    ------------    ------------
+   1               0               0
+   2             0.5               0
+   3               0             1.5
+   4             0.5             1.5
+   5               0               2
+   6             0.5               2
+   7             1.5               2
+   8               2               2
+   9             1.5             1.5
+  10               2             1.5
+  11             1.5               0
+  12               2               0
+----    ------------    ------------
+ Min               0               0
+Node               1               1
+
+ Max               2               2
+Node               8               5
+
+--------------
+NODAL BCs (default is UNKNOWN)
+--------------
+Node     Status 
+----    --------
+   1    Known
+   2    Known
+   3    Known
+   5    Known
+   6    Known
+   7    Known
+   8    Known
+  10    Known
+  11    Known
+  12    Known
+
+===================== FE RESULTS ========================
+
+----------------------
+AIRY's STRESS FUNCTION
+----------------------
+Node        ASF       
+----    --------------
+   4          0.224545
+   9          0.184545
+----    --------------
+Min           0.184545
+Node                 9
+
+Max           0.224545
+Node                 4
+
+----------------
+SHEAR STRESSES  
+----------------
+Element    Tau XZ           Tau YZ       
+-------    -------------    -------------
+      1         -241.329                0
+      2               -0          723.986
+      3               -0          723.986
+      4          723.986                0
+      5          723.986         -64.4846
+      6          595.017                0
+      7          595.017         -595.017
+      8               -0                0
+      9         -198.339         -595.017
+     10                0                0
+-------    -------------    -------------
+Min             -241.329         -595.017
+Node                   1                7
+
+Max              723.986          723.986
+Element                4                2
+
+
+  Angle of Twist : -0.000140184

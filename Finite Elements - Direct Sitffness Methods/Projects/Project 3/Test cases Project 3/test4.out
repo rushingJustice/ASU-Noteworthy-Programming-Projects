@@ -1,0 +1,114 @@
+
+		--------------------------------------------
+		         Planar Frame Analysis Program      
+		Introduction to Structural Analysis & Design
+		           (c) 2000-15, S. D. Rajan         
+		         Enhanced By: Michael Justice       
+		--------------------------------------------
+
+PROBLEM SIZE
+------------
+                  Number of nodes : 3
+               Number of elements : 2
+        Number of Material Groups : 2
+Number of Element Property Groups : 2
+            Length of all members : 15
+          Number of Effective DOF : 3
+
+ELEMENT MATERIAL PROPERTIES
+------------------------------------------------
+Element  Young's Modulus  Poisson's Ratio    CTE
+------------------------------------------------
+1           4e+010            0.3       1.1e-005
+2         2.2e+010            0.3       1.1e-005
+
+ELEMENT CROSS-SECTIONAL PROPERTIES
+-------------------------------------------------------------------------------------
+Element          Type        Area   Moment of Inertia  Shear Factor   Section Modulus
+-------------------------------------------------------------------------------------
+1      Rectangular Solid       1.5          0.125              1           0.25
+2       Circular Solid 0.0314159   7.85398e-005      0.0235619    0.000785398
+
+NODAL INFORMATION: COORDINATES
+---------------------------------------
+Node    X-Coordinate    Y-Coordinate
+---------------------------------------
+   1                0                 0    
+   2                0                10    
+   3                5                10    
+
+NODAL INFORMATION: FIXITIES
+-------------------------------------------------------------------------------------------
+Node         X-Fixity         X-Disp     Y-Fixity         Y-Disp     Z-Fixity         Z-Rot
+-------------------------------------------------------------------------------------------
+   1        Specified             0     Specified             0     Specified         -0.01
+   2             Free                        Free                        Free              
+   3        Specified             0     Specified             0     Specified             0
+
+ELEMENT INFORMATION
+----------------------------------------------
+Element     Start Node     End Node     Length
+----------------------------------------------
+1              2              1             10           
+2              3              2              5           
+
+NODAL LOADS
+------------------------------------------
+Node     X-Force      Y-Force     Z-Moment
+------------------------------------------
+   2           0       -10000         -100
+
+ELEMENT CONCENTRATED LOADS
+-----------------------------------------------------------------
+Element     Load Type     Dist from Start Node     Load Intensity
+-----------------------------------------------------------------
+1           LOCAL Y                 5             -2000
+2           LOCAL Y                 3             -5000
+2           LOCAL Y                 2             -5000
+2           LOCAL X                 2              3000
+2            MOMENT                 1               100
+
+ELEMENT DISTRIBUTED LOADS
+-----------------------------------------------------------------
+Element     Load Type     Int at Start Node     Int at End Node
+-----------------------------------------------------------------
+1           LOCAL Y             -5000             -2000
+1           LOCAL Y             -1000             -1000
+
+
+====================== FE RESULTS ======================
+
+NODAL DISPLACEMENTS
+--------------------------------------------------------
+Node   X-Displacement    Y-Displacement    Z-Rotation
+--------------------------------------------------------
+   1                0                 0             -0.01
+   2       0.00990874     -2.74689e-006        0.00352697
+   3                0                 0                 0
+
+ELEMENT NODAL FORCES
+--------------------------------------------------------
+Element      Axial Force     Shear Force  Bending Moment
+--------------------------------------------------------
+  1          16481.3    -1.32089e+006    -1.34579e+007
+            -16481.3     1.36789e+006         -10942.2
+  2     1.36789e+006          6481.34          10842.2
+       -1.37089e+006          3518.66         -3535.47
+
+MAX MEMBER STRESSES
+-------------------------------------------------------------
+Element    Compressive Stress  Tensile Stress    Shear Stress
+-------------------------------------------------------------
+1           5.38426e+007     5.38207e+007     1.36789e+006
+2           5.73459e+007                0           275077
+
+NODAL REACTIONS
+----------------------------------------------
+Node    X-Reaction    Y-Reaction    Z-Reaction
+----------------------------------------------
+   1    1.32089e+006      16481.3    -1.34579e+007
+   2                                        
+   3    -1.37089e+006      3518.66     -3535.47
+
+Absolute Error Norm: 3.63798e-012
+Relative Error Norm: 3.4724e-019

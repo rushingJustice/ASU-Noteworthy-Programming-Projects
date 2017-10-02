@@ -1,0 +1,14 @@
+*-----------------------------
+*Report for month of July 2007
+*-----------------------------
+*History
+Barnes, History of the World, 78.50, 223
+Hopkinson, South America, 55.25, 450
+*Engineering
+Anderson, Fracture Mechanics, 113.45, 78
+Rao, Introduction to Finite Element Analysis, 90.75, 125
+Burnett, Finite Element Analysis – From Concepts to Applications, 125.5, 57
+*Computer
+Dietel and Dietel, C++ How to Program, 55.65, 300
+Page-Jones, Fundamentals of Object-Oriented Design in UML, 75.5, 125
+Kruse and Ryba, Data Structures and Program Design in C++, 85.9, 102

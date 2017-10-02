@@ -1,0 +1,14 @@
+Rem: File generated on 15-Jan-2005
+Phoenix    12-Jan-2005 13500
+San_Diego  12-Jan-2005 13945
+Sacramento 14-Jan-2005 15456
+Rem: File generated on 18-Jan-2005
+Portland   16-Jan-2005 17800
+Seattle    17-Jan-2005 18400
+
+
+Rem: File generated on 25-Jan-2005
+Eugene     20-Jan-2005 19500
+San_Jose   21-Jan-2005 20600
+Las_Vegas  23-Jan-2005 22300
+Phoenix    24-Jan-2005 23100

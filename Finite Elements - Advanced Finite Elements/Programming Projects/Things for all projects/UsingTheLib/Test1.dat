@@ -1,0 +1,17 @@
+$ dollar sign in the first column indicates comment line
+*control
+points, 6
+triangles, 4
+*points
+1, 0.0, 0.0
+2, 4.0, 0.0
+3, 7.0, 0.0
+4, 0.0, 2.0
+5, 4.0, 2.0
+6, 7.0, 2.0
+*triangles
+1, 1, 5, 4
+2, 1, 2, 5
+3, 2, 3, 6
+4, 2, 6, 5
+*end

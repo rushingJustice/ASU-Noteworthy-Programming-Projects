@@ -1,0 +1,15 @@
+following code goes above "m_dVL(i) = fL; // store length at current element"
+
+// apply thermal loading to SNF
+		//m_NodalData(nSN).GetLoads (fXF, fYF, fDTempS);
+		//m_NodalData(nEN).GetLoads (fXF, fYF, fDTempE);
+
+		//fEleDTemp = (fDTempS + fDTempE)/2; // average temperature change at element
+		//m_de(i) = fCTE*fEleDTemp; // thermal strain of element
+		//dq(1) = fE*fA*m_de(i)*-1; dq(2) = -1*dq(1); // form applied local thermal force vector
+		//MTBDP.MatMultVec (dTT, dq, dQ); // form global thermal force vector
+
+		//for (int i=1; i<=4;i++) // add thermal forces to applied forces
+		//{
+		//	m_dSNF(nE(i),1) += dQ(i);
+		//}

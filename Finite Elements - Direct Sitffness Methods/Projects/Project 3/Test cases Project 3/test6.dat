@@ -1,0 +1,42 @@
+*heading
+Planar frame (Units: m, N)
+*nodal coordinates
+** Node #, x-coor, y-coor
+1 0.0 0.0
+2 0.0 120.0
+3 48.0 168.0
+4 48.0 120.0
+5 96.0 120.0
+6 96.0 0.0
+*nodal fixity
+** Node #, x-fixity, y-fixity, z-fixity, x-disp, y-disp, z-disp
+1 specified specified specified 0.0 0.0 0.0
+6 specified specified specified 0.0 0.0 0.0
+*nodal loads
+** Node #, x-force, y-force, z-moment
+2, 1000, 0.0, 0.0
+*material data
+** MAT #, E, v, CTE
+1 2e11, 0.3, 1.2e-5
+*cross-sectional data
+** X/S #, type, list of values
+1 rects 12.0 6.0
+2 rects 6.0 4.0
+*element data
+** ELE #, SN, EN, MAT #, X/S #
+1 1 2 1 1
+2 2 3 1 2
+3 3 4 1 2
+4 4 5 1 2
+5 5 6 1 1
+6 3 5 1 2
+7 2 4 1 2
+*element loads
+** ElE #, Load type, value 1, value 2
+2 dly' -1000.0   -1000.0
+1 dly' -2000.0 -2000.0
+5 dly' 1000.0 1000.0
+7 dly' -500.0 -500.0
+4 dly' -500.0 -500.0
+6 dly' 1000.0 1000.0
+*end

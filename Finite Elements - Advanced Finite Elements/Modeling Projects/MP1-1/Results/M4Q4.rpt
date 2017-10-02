@@ -1,0 +1,28 @@
+********************************************************************************
+Probe Values Report, written on Tue Mar 15 21:44:16 2016
+
+Source
+-------
+
+   ODB: C:/Temp/Job-1.odb
+   Step: Step-1
+   Frame: Increment      1: Step Time =    1.000
+   Variable: S, Mises (Avg: 75)
+
+Probe values reported at nodes
+
+  Part Instance     Node ID                   Orig. Coords                                     Def. Coords                 
+                                    X               Y               Z               X               Y               Z      
+-------------------------------------------------------------------------------------------------------------------------
+     PLATE-1          24              0.        750.E-03              0.     4.06569E-36     749.914E-03              0.
+     PLATE-1           9              0.              2.              0.    -96.4799E-39         1.99989              0.
+
+
+  Part Instance     Node ID  Attached elements        S, Mises
+---------------------------------------------------------------
+     PLATE-1          24             292     6.12856E+03
+     PLATE-1          24             458     6.12856E+03
+     PLATE-1           9              71     1.74547E+03
+     PLATE-1           9             268     1.74547E+03
+
+

@@ -1,0 +1,26 @@
+********************************************************************************
+Probe Values Report, written on Wed Mar 23 21:14:28 2016
+
+Source
+-------
+
+   ODB: C:/Temp/TorqueArm.odb
+   Step: Step-1
+   Frame: Increment      1: Step Time =   2.2200E-16
+   Variable: S, Mises (Avg: 75)
+
+Probe values reported at nodes
+
+  Part Instance     Node ID                   Orig. Coords                                     Def. Coords                 
+                                    X               Y               Z               X               Y               Z      
+-------------------------------------------------------------------------------------------------------------------------
+  Torque Arm-1          24         40.4855        -1.79727              0.         40.4896        -1.78385              0.
+
+
+  Part Instance     Node ID  Attached elements        S, Mises
+---------------------------------------------------------------
+  Torque Arm-1          24              10     2.35859E+03
+  Torque Arm-1          24              27     2.35859E+03
+  Torque Arm-1          24              28     2.35859E+03
+
+
